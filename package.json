@@ -1,0 +1,25 @@
+{
+  "name": "ai-ticket-assistant",
+  "private": true,
+  "version": "0.1.0",
+  "type": "module",
+  "description": "AI 缺陷单助手：解析缺陷描述，生成结构化走单文件与验证报告草稿",
+  "scripts": {
+    "dev": "vite",
+    "build": "vue-tsc -b && vite build",
+    "preview": "vite preview",
+    "typecheck": "vue-tsc -b",
+    "test": "vitest run",
+    "test:watch": "vitest"
+  },
+  "dependencies": {
+    "vue": "^3.5.13"
+  },
+  "devDependencies": {
+    "@vitejs/plugin-vue": "^5.2.1",
+    "typescript": "~5.6.3",
+    "vite": "^5.4.11",
+    "vitest": "^2.1.8",
+    "vue-tsc": "^2.1.10"
+  }
+}
